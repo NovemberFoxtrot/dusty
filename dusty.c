@@ -83,7 +83,7 @@ int main(int argc, char *argv[]) {
 	int so_reuseaddr;
 
 	if (argc != 4) {
-		fprintf(stderr, "usage: %s <server_port> <backend_addr> <backend_port>\n", argv[0]);
+		fprintf(stderr, "usage: %s <server port> <backend addr> <backend port>\n", argv[0]);
 		exit(1);
 	}
 
